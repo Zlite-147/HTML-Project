@@ -1,0 +1,266 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="article.css" />
+	
+		<style>
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
+	
+	
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>	
+	
+</head>
+
+<div class="paper">
+  <h1 class="title"><i>What is a 'Blockchain'</i></h1>
+  <article class="article">
+<img id="myImg" src="http://www.mhlnews.com/sites/mhlnews.com/files/styles/article_featured_standard/public/blockchain_0.gif?itok=PyXp3cWH" class="article__illustration" alt="Blockchain Technology">
+
+	  <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+	  
+    <h2 class="article__title">BlockChain Technology   </h2>
+
+    <p class="p">
+A blockchain is a digitized, decentralized, public <a href="https://en.wikipedia.org/wiki/Ledger">ledger</a> of all <a href="https://en.wikipedia.org/wiki/Cryptocurrency">cryptocurrency </a>transactions. Constantly growing as 'completed' blocks (the most recent transactions) are recorded and added to it in chronological order, it allows market participants to keep track of digital currency transactions without central recordkeeping. Each node (a computer connected to the network) gets a copy of the blockchain, which is downloaded automatically.<br>
+		Transaction speed is also an issue. As we noted above, blocks in a chain must be verified by the distributed network, and that can take time. A lot of time. At its worse, bitcoin’s average transaction time exceeded 41 hours. Ethereum is much more efficient, but its average time is around 15 seconds — which would be an eternity in a checkout line at your local grocery store. Blockchains used for purposes other than cryptocurrency could run into similar problems. You can imagine how frustrating it would be to wait 15 seconds every time you wanted to change a database entry.
+
+These problems will need to be resolved as blockchain becomes more popular. However, considering we’re less than a decade on from the blockchain’s first implementation, and we’re already on the road to developing new uses for it, we remain optimistic that those involved will work out it.
+</p>
+	  
+<p class="p">
+	
+      <iframe width="280" height="315" src="https://www.youtube.com/embed/SSo_EIwHSd4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br><br>
+	<br>Originally developed as the accounting method for the virtual currency 
+	<a href="https://en.wikipedia.org/wiki/Bitcoin">Bitcoin</a>, blockchains – which use what's known as<a href="https://cdn-images-1.medium.com/max/800/1*Cw_hvqHtg-e9gggxZsrQGQ.pn    g">distributed ledger technology (DLT)</a>  – are appearing in a variety of commercial applications today. Currently, the technology is primarily used to verify transactions, within digital currencies though it is possible to digitize, code and insert practically any document into the blockchain. Doing so creates an indelible record that cannot be changed; furthermore, the record’s authenticity can be verified by the entire community using the blockchain instead of a single centralized authority.
+		
+		
+</p>
+
+    <p class="p"><h2>Benefits of Blockchain:</h2><br/><a href="http://brainask.com/wp-content/uploads/2016/10/Irvh3cI.jpg"><h4>Reduced transaction costs</h4></a>
+    <a href="https://steemit-production-imageproxy-thumbnail.s3.amazonaws.com/U5dtSsBTBa7FB8sEPTVEj65oseSsMtc_1680x8400"><h4>Government...</h4></a>
+    <h4>Energy</h4>
+	  Microgeneration of electricity is becoming a huge trend in the power generation business. New energy initiatives such as home power generation and community solar power are filling in gaps of power supply across the world. As microgeneration adds to traditional power suppliers, it fosters creation of an energy market. Smart meters can register produced and consumed electricity in a blockchain, which allows for consumption of the surplus energy in a different location, providing credits or currency to the original producer. The credits can then be redeemed against the grid when the microgenerator needs additional electricity from the grid. The blockchain enforces these contracts in real time or near-real time, allowing for a utility market to be created with minimal red tape.
+	  </p>
+
+    
+    <p class="p">
+	<img id="images0" src="https://img.etimg.com/thumb/msid-59330648,width-300,imgsize-448128,resizemode-4/blockchain-tech-is-joining-e-gov-dots-in-ap-telangana.jpg">
+		
+		<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('images0');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+		
+<h2>Cryptocurrency</h2>	Part of the confusion around what is blockchain versus what is cryptocurrency is due in part that the terms have come into use. Instead of being introduced by formal definition, the term blockchain developed from “chain of blocks”. Cryptocurrency is a sort-of portmanteau of “cryptographic currency”. But the fundamental difference between these concepts has to do with how distributed ledger technology is used.
+	<br><br>
+	
+		Blockchain technology is commonly associated with Bitcoin and other cryptocurrencies, but that’s really only the tip of the iceberg. Some people think blockchain could end up transforming a number of important industries, from health care to politics.
+	<br>
+	Contrasted with blockchain, cryptocurrency has to do with the use of tokens based on the distributed ledger technology. Anything dealing with buying, selling, investing, trading, microtipping, or other monetary aspects deals with a blockchain native token or subtoken.
+	<iframe width="280" height="315" src="https://www.youtube.com/embed/vmaMceV4Z8g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</p>
+     
+
+   <!-- <img src="https://endangered.photo/static/media/green-sea-turtle.b01caf4b.jpg" class="article__illustration" alt="Green Sea Turtle">
+--><p class="p">	  <h2>So, what is a Bitcoin?</h2>    
+<h4 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"> <i>One Bitcoin is a single unit of the Bitcoin (BTC) digital currency, just like a Dollar it has no value by itself, it has value only because we agree to trade goods and services in exchange for a higher amount of the currency under our control and we believe others will do the same.</i> </h4>  
+<script>
+function mouseOver() {
+    document.getElementById("demo").style.color = "red";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+}
+</script>
+</p>
+      
+      <p class="p">
+          <h2>Blockchain isn’t just for Bitcoin</h2>
+          
+          While blockchain technology isn’t simple when you dig into the nitty-gritty, the basic idea isn’t so opaque. It’s effectively a database that’s validated by a wider community, rather than a central authority. It’s a collection of records that has a lot of people give it the thumbs up, rather than relying on a single entity, like a bank or government, which most likely hosts data on a particular server.
+
+Each “block” represents a number of transactional records, and the “chain” component links them all together with a hash function. As records are created, they are confirmed by a distributed network of computers and paired up with the previous entry in the chain, thereby creating a chain of blocks, or a blockchain. 
+	<img id="myImges" src="https://cdn.static-economist.com/sites/default/files/images/print-edition/20150509_SRC964.png" alt="Structure of Bitcoin">
+
+          <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImges');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+</p>
+
+	<p class="p">
+		
+		Like paper money and gold before it, bitcoin and ether allow parties to exchange value. Unlike their predecessors, they are digital and decentralized. For the first time in history, people can exchange value without intermediaries which translates to greater control of funds and lower fees.
+		
+When Bitcoin was the only blockchain, there wasn’t much of a distinction between the terms and they were used interchangeably. As the technology matured and a variety of blockchains bloomed, the uses quickly diverged from the pure money aspect. Instead, technologists experimented with ideas like decentralized name registry. Other uses utilized the peer-to-peer aspect to deliver messages in a discrete way. In the end, many of these projects failed to find a good use of the technology. The projects left standing helped demonstrate what was possible with beyond buzzwords.
+		
+</p>
+    <p class="p">You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does
+      the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
+
+    </article>
+
+ <aside class="aside">
+	  <img src="https://news.bitcoin.com/wp-content/uploads/2017/08/Blockchain.info-to-Support-Bitcoin-Cash-V2.png">
+<br>
+	  Blockchain was invented by <a href="https://en.bitcoin.it/wiki/Satoshi_Nakamoto">Satoshi Nakamoto </a>in 2008 for use in the cryptocurrency bitcoin, as its public transaction ledger.[1] The invention of the blockchain for bitcoin made it the first digital currency to solve the double spending problem without the need of a trusted authority or central server. The bitcoin design has been the inspiration for other applications<br><br>
+	  
+	  IoT being the biggest connection revolves around security issues. Blockchain, and the combination of cryptographic processes behind it, offers an intriguing alternative. Because blockchain is built for decentralized control, a security scheme based on it should be more scalable than a traditional one.
+	  
+	  Storing data in the cloud has become an increasingly popular and convenient practice but it still has potential problems – like downtime and losing access to your data temporarily, or more seriously, the cloud service being hacked.
+        Reference
+        <li>
+<font size="2"><a href="https://www.lifi.eng.ed.ac.uk/">www.lifi.eng.ed.ac.uk/</a></font>
+        </li>
+        <li> <font size="2"><a href="https://www.quora.com/What-are-the-advantages-of-blockchain-technology">/quora</a></font> 
+        </li>
+        <li><font size="2"><a href="https://www.digitaltrends.com/computing/what-is-a-blockchain/">what-is-a-blockchain</a></font>
+	  </li>
+</aside>
+  
+</div>

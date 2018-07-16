@@ -1,0 +1,284 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="article.css" />
+	
+		<style>
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
+	
+	
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>	
+	
+</head>
+
+<div class="paper">
+  <h1 class="title"><i>Carbon Capture Technology</i></h1>
+  <article class="article">
+<img id="myImg" src="http://kraftwerkforschung.info/fileadmin/user_upload/Bilder/Peter-QuickInfos/CO2_abtrennen_und_lagern/CSS-Schau.jpg" alt="Carbon Capture Technology">
+
+	  <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+	  
+    <h2 class="article__title">Carbon Capture Technology</h2>
+
+    <p class="p">Carbon Capture and Storage (CCS) is a technology that can capture up to 90% of the carbon dioxide (CO2) emissions produced from the use of fossil fuels in electricity generation and industrial processes, preventing the carbon dioxide from entering the atmosphere.<br>Furthermore, the use of CCS with renewable biomass is one of the few carbon abatement technologies that can be used in a 'carbon-negative' mode  actually taking carbon dioxide out of the atmosphere.</p>
+	  
+<p class="p"><br>The CCS chain consists of three parts; capturing the carbon dioxide, transporting the carbon dioxide, and securely storing the carbon dioxide emissions, underground in depleted oil and gas fields or deep saline aquifer formations.<br>First, capture technologies allow the separation of carbon dioxide from gases produced in electricity generation and industrial processes by one of three methods: pre-combustion capture, post-combustion capture and oxyfuel combustion.<br>Carbon dioxide is then transported by pipeline or by ship for safe storage. Millions of tonnes of carbon dioxide are already transported annually for commercial purposes by road tanker, ship and pipelines. The U.S. has four decades of experience of transporting carbon dioxide by pipeline for enhanced oil recovery projects.<br>The carbon dioxide is then stored in carefully selected geological rock formation that are typically located several kilometres below the earth's surface.<br>At every point in the CCS chain, from production to storage, industry has at its disposal a number of process technologies that are well understood and have excellent health and safety records. The commercial deployment of CCS will involve the widespread adoption of these CCS techniques, combined with robust monitoring techniques and Government regulation.<br><iframe width="280" height="315" src="https://www.youtube.com/embed/aHtbDmzjYgg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+    <p class="p"><br><h2>Carbon Capture Use & Stored.</h2>
+	<br>Carbon capture and storage (CCS) is a range of technologies that hold the promise of trapping up to 90% of the carbon dioxide emissions from power stations and industrial sites. It involves collecting, transporting and then burying the CO2 so that it does not escape into the atmosphere and contribute to climate change..
+		<img id="imges01" src="http://3kbo302xo3lg2i1rj8450xje.wpengine.netdna-cdn.com/wp-content/uploads/2017/06/image-1-800x450.jpg">
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('imges01');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+	  </p>
+
+    
+    <p class="p">
+		<h2>Why CO2 Capture and Storage (CCS) is an Important Strategy to Reduce Global CO2 Emissions</h2>
+	<img id="images0" src="https://upload.wikimedia.org/wikipedia/commons/a/a6/CSIRO_ScienceImage_3031_Postcombustion_carbon_capture_technology.jpg">
+		
+		<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('images0');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+		
+According to the Intergovernmental Panel on Climate Change (IPCC), global greenhouse gas (GHG) emissions must be reduced by 50 to 80 percent by 2050 to avoid dramatic consequences of global warming. Scenarios from the International Energy Agency (IEA) indicate that the potential for reduced CO2 emissions through enhanced energy efficiency and increased renewable energy production is limited.<br><br>
+	<li><h3>Global Energy Demand:-</h3></li>Analyzing the future energy demand is a prerequisite for predicting future CO2 emissions. IEA has established two scenarios for future energy demand, a Reference Scenario (RS) which is a business-as-usual scenario, and an Alternative Policy Scenario (APS). In the APS it is assumed that new policies favoring existing environmentally friendly technologies are implemented. Therefore, APS assumes more renewable energy production and a larger potential for energy efficiency than RS.
+
+Future global energy demand is presented in Figure 1. This figure shows that a large increase in global energy demand is expected and that according to the RS, the global energy demand will increase by 50 percent by 2030.
+	<li><h3>Capture:-</h3></li>
+	<li><h4><i>Pre-combustion capture</i></h4></li>
+	<li><h4><i>Post-combustion capture</i></h4></li>
+	<li><h4><i>Oxyfuel combustion</i></h4></li>
+	<br><iframe width="280" height="315" src="https://www.youtube.com/embed/ROEFaHKVmSs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br></p>
+    
+<p class="p">	  <br><h2>Why is Carbon Capture Technology?</h2>    
+<h4 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"> <i>Carbon capture and storage (CCS) (or carbon capture and sequestration or carbon control and sequestration[1]) is the process of capturing waste carbon dioxide (CO2) from large point sources, such as fossil fuel power plants, transporting it to a storage site, and depositing it where it will not enter the atmosphere, normally an underground geological formation. </i> </h4>  
+<script>
+function mouseOver() {
+    document.getElementById("demo").style.color = "red";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+}
+</script>
+</p>
+      
+      <p class="p">
+        			<h3><il>Use</il></h3><br>CO2 can be used as a value-added commodity. This can result in a portion of the CO2 being permanently stored – for example, in concrete that has been cured using CO2 or in plastic materials derived from biomass that uses CO2 as one of the ingredients. The CO2 can also be converted into biomass. This can be achieved, for example, through algae farming using CO2 as a feedstock. The harvested algae can then be processed into bio-fuels that take the place of non-biological carbon sources.<br>
+<br>
+<img id="myImges" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Carbon_sequestration-2009-10-07.svg/530px-Carbon_sequestration-2009-10-07.svg.png" alt="Process......">
+
+          <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImges');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+</p>
+
+	<p class="p">
+		<h3><i>Enhanced oil recovery</i></h3><br>CO2 is already widely used in the oil industry for enhanced oil recovery (EOR) from mature oilfields. When CO2 is injected into an oilfield it can mix with the crude oil causing it to swell and thereby reducing its viscosity, helping to maintain or increase the pressure in the reservoir. The combination of these processes allows more of the crude oil to flow to the production wells. In other situations, the CO2 is not soluble in the oil. Here, injection of CO2 raises the pressure in the reservoir, helping to sweep the oil towards the production well. In EOR, the CO2 can therefore have a positive commercial value and can help support the deployment of CCUS and create a revenue stream for CCS projects, as the CO2 captured becomes an economic resource.
+</p>
+
+    </article>
+
+ <aside class="aside">
+	  <img  id="imgess"src="http://banr.nrel.colostate.edu/wp-content/uploads/2017/05/diagram-e1495231272824.jpg">
+
+	    <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('imgess');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+	  <br>
+Carbon capture and storage (CCS) (or carbon capture and sequestration or carbon control and sequestration[1]) is the process of capturing waste carbon dioxide (CO2) from large point sources, such as fossil fuel power plants, transporting it to a storage site, and depositing it where it will not enter the atmosphere, normally an underground geological formation.	    <br><h2>Reference</h2>
+        <li>
+<font size="2"><a href="https://en.wikipedia.org/wiki/Carbon_capture_and_storage">en.wikipedia.org/Carbon_capture_and_storage</a></font>
+        </li>
+        <li> <font size="2"><a href="https://www.worldcoal.org/reducing-co2-emissions/carbon-capture-use-storage">/quora</a></font> 
+        </li>
+        <li><font size="2"><a href="http://bellona.org/news/ccs/2007-10-why-co2-capture-and-storage-ccs-is-an-important-strategy-to-reduce-global-co2-emissions">what-is-a-Carbon-Capture</a></font>
+	  </li>
+</aside>
+  
+</div>

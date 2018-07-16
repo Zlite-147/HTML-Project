@@ -1,0 +1,295 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="article.css" />
+	
+		<style>
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
+	
+	
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>	
+	
+</head>
+
+<div class="paper">
+  <h1 class="title"><i>Big data Technology</i></h1>
+  <article class="article">
+<img id="myImg" src="https://cdn-images-1.medium.com/max/1000/1*QT8iRJkmq2M-W5C2wOI2Wg.jpeg" alt="Big data Technology">
+
+	  <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+	  
+    <h2 class="article__title">Big data Technology</h2>
+
+    <p class="p">Big data is data sets that are so voluminous and complex that traditional <a href="https://en.wikipedia.org/wiki/Data_processing">data-processing </a>application software are inadequate to deal with them. Big data challenges include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating, information privacy and data source. There are five concepts associated with big data: volume, variety, velocity and, the recently added, veracity and value.</p>
+	  
+<p class="p">
+	<iframe width="280" height="315" src="https://www.youtube.com/embed/TzxmjbL-i4Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br><br>
+	<br>Lately, the term "big data" tends to refer to the use of predictive analytics, user behavior analytics, or certain other advanced data analytics methods that extract value from data, and seldom to a particular size of data set. "There is little doubt that the quantities of data now available are indeed large, but that’s not the most relevant characteristic of this new data ecosystem. Analysis of data sets can find new correlations to spot business trends, prevent diseases, combat crime and so on.Scientists, business executives, practitioners of medicine, advertising and governments alike regularly meet difficulties with large data-sets in areas including Internet search, fintech, urban informatics, and business informatics. Scientists encounter limitations in e-Science work, including meteorology, genomics,connectomics, complex physics simulations, biology and environmental research.</p>
+
+    <p class="p"><br><h2>How Big Data technology works?</h2>
+	<br><img id="imges01" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hilbert_InfoGrowth.png/800px-Hilbert_InfoGrowth.png"> The The new benefits that big data analytics brings to the table, however, are speed and efficiency. Whereas a few years ago a business would have gathered information, run analytics and unearthed information that could be used for future decisions, today that business can identify insights for immediate decisions. The ability to work faster – and stay agile – gives organizations a competitive edge they didn’t have before.
+		<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('imges01');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+	  </p>
+
+    
+    <p class="p">
+		<h2>Why is big data analytics important?</h2>
+	<img id="images0" src="https://i0.wp.com/www.credosystemz.com/wp-content/uploads/2017/12/Big-Data-Analytics-Importance-Credo-Systemz.png">
+		
+		<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('images0');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+		
+Big data analytics helps organizations harness their data and use it to identify new opportunities. That, in turn, leads to smarter business moves, more efficient operations, higher profits and happier customers. In his report Big Data in Big Companies, IIA Director of Research Tom Davenport interviewed more than 50 businesses to understand how they used big data. He found they got value in the following ways:<br><br>
+	<li><h3>Cost reduction:-</h3></li>Big data technologies such as Hadoop and cloud-based analytics bring significant cost advantages when it comes to storing large amounts of data – plus they can identify more efficient ways of doing business.
+	<li><h3>Faster, better decision making:-</h3></li>With the speed of Hadoop and in-memory analytics, combined with the ability to analyze new sources of data, businesses are able to analyze information immediately – and make decisions based on what they’ve learned.
+	<li><h3>New products and services:-</h3></li>With the ability to gauge customer needs and satisfaction through analytics comes the power to give customers what they want. Davenport points out that with big data analytics, more companies are creating new products to meet customers’ needs.
+	<br><iframe width="280" height="315" src="https://www.youtube.com/embed/u5jWC89xBzI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br></p>
+     
+
+   <!-- <img src="https://endangered.photo/static/media/green-sea-turtle.b01caf4b.jpg" class="article__illustration" alt="Green Sea Turtle">
+--><p class="p">	  <br><h2>Why is Big Data?</h2>    
+<h4 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"> <i>Big Data is a phrase used to mean a massive volume of both structured and unstructured data that is so large it is difficult to process using traditional database and software techniques. In most enterprise scenarios the volume of data is too big or it moves too fast or it exceeds current processing capacity.</i> </h4>  
+<script>
+function mouseOver() {
+    document.getElementById("demo").style.color = "red";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+}
+</script>
+</p>
+      
+      <p class="p">
+          <h2>Big Data Analytics Technologies</h2>
+         DesignMind’s Big Data analytics consultants specialize in data and system architecture, data integration, exploration and visualization, descriptive analytics, data science, predictive analytics, machine learning, and AI.  To increase our access to cutting-edge tools, we have partnerships with Microsoft, Hortonworks, Cloudera, MapR, and Qubole and work with the following technologies:<br>
+	<li>Hadoop (Cloudera, Hortonworks, MapR, Qubole, and Microsoft HDInsight distributions)</li>
+<li>Apache Hive and Pig</li>
+<li>Apache Spark and Mahout</li>
+<li>Apache HBase and Cassandra</li>
+<li>Amazon Web Services (Data Pipeline, EMR, Redshift)</li>
+<li>Apache Impala and SQL on Hadoop</li>
+
+<br><h2>Big data & Social-Media</h2>
+<img id="myImges" src="https://www.silicon.co.uk/wp-content/uploads/2016/05/shutterstock_270599177.jpg" alt="Data......">
+
+          <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImges');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+</p>
+
+	<p class="p">
+		<h3>Big data is a Driving Factor Behind Every Marketing Decision</h3>Just like any other industry, social media companies find big data useful for analyzing markets and predicting consumer behavior. In 2012, Jay Parikh, engineering VP at Facebook, revealed that Facebook handles over 500 terabytes of data every day, 300 million photos daily, 2.6 billion ‘likes’ and 2.5 billion content uploads. All this data is processed in mere minutes giving Facebook insight into user reactions and the ability to roll out or modify its offering. 
+<br>What’s more, correlating content to demographics of users age, gender, marital status, geographic location, income levels, educational achievement, inclination to purchase certain products allows a company to know more about the people it’s dealing with. Such analysis also reveals how adverts are doing among different customer segments. This is very beneficial as advertisers can react in near real time and adjust campaigns to make more revenue. Analysis of social media data collected by a retailer could for instance reveal that unmarried females between 25 and 35 are suitable candidates for a discount offer on gym equipment. 
+</p>
+
+    </article>
+
+ <aside class="aside">
+	  <img  id="imgess"src="http://gaia.adage.com/images/bin/image/x-large/iStock507965390.jpg">
+
+	    <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('imgess');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+	  <br>
+Growth of and digitization of global information-storage capacity
+Big data is data sets that are so voluminous and complex that traditional data-processing application software are inadequate to deal with them. Big data challenges include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating, information privacy and data source
+	  <br>As Facebook, Twitter, Instagram and Pinterest continue to monetize their offerings, it would appear that the benefits that big data will have for social media in the future will become even more personalized.
+	    <br><h2>Reference</h2>
+        <li>
+<font size="2"><a href="https://en.wikipedia.org/wiki/Big_data">https://en.wikipedia.org/wiki/Big_data</a></font>
+        </li>
+        <li> <font size="2"><a href="http://www.rfwireless-world.com/Terminology/Advantages-and-Disadvantages-of-Hyperloop-Technology.html">/quora</a></font> 
+        </li>
+        <li><font size="2"><a href="https://datafloq.com/read/how-social-media-companies-use-big-data/1957">what-is-a-Big data</a></font>
+	  </li>
+</aside>
+  
+</div>

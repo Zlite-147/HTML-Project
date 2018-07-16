@@ -1,0 +1,303 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="article.css" />
+	
+		<style>
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
+	
+	
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>	
+	
+</head>
+
+<div class="paper">
+  <h1 class="title"><i>Hyperloop Technology</i></h1>
+  <article class="article">
+<img id="myImg" src="https://www.railway-technology.com/wp-content/uploads/sites/24/2017/10/hyperloop-passengers.jpg" class="article__illustration" alt="Hyperloop Technology">
+
+	  <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+	  
+    <h2 class="article__title">Hyperloop Technology</h2>
+
+    <p class="p">
+Hyperloop Transportation Technologies, also known as HTT, is an American research company formed using a crowd collaboration approach (a mix of team collaboration and crowdsourcing) to develop a transportation system based on the Hyperloop concept, which was envisioned by <a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a> in 2013.</p>
+	  
+<p class="p">
+	
+     <iframe width="280" height="315" src="https://www.youtube.com/embed/6x_IB45ySAQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br><br>
+	<br>The Hyperloop Alpha concept was first published in August 2013, proposing and examining a route running from the Los Angeles region to the San Francisco Bay Area roughly following the Interstate 5 corridor. The paper conceived of a hyperloop system that would propel passengers along the 350-mile (560 km) route at a speed of 760 mph (1,200 km/h), allowing for a travel time of 35 minutes, which is considerably faster than current rail or air travel times. Preliminary cost estimates for this LA–SF suggested route were included in the white paper—US$6 billion for a passenger-only version, and US$7.5 billion for a somewhat larger-diameter version transporting passengers and vehicles[1]—although transportation analysts had doubts that the system could be constructed on that budget; some analysts claimed that the Hyperloop would be several billion dollars overbudget, taking into consideration construction, development and operation costs.
+		
+		
+</p>
+
+    <p class="p"><br><h2>How Hyperloop technology works?</h2>
+	<br><img id="imges01" src="https://i1.wp.com/unshootables.com/wp-content/uploads/2015/10/Hyperloop-3-610x321.jpg" alt="Working Of Hyperloop"> The hyperloop system consists of two main parts tube consisting of tracks and capsules carrying passengers. The figure-2 depicts internal subsystems of hyperloop capsule. As shown, capsule consists of air compressor on front, passenger compartment in middle and battery compartment at back.
+
+		<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('imges01');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+		
+	
+Let us understand how hyperloop technology works. Though tube tracks are designed to have vacuum inside, they are not free of air completely and will have low pressure air inside the capsule. This results into compression of air and consecutively creates cushion of air which slows the speed of the object. </p>
+
+    
+    <p class="p">
+	<img id="images0" src="https://qph.fs.quoracdn.net/main-qimg-55227fcbd26d27a995798721a4be230a">
+		
+		<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('images0');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+		
+<h2>What Advantages Does Hyperloop Offer Over High-Speed Rail?</h2>There are a few: cost, speed, safety, and flexibility. Obvious caveat: Hyperloop networks don’t exist yet, and high-speed rail networks do. Advantage: high-speed rail!
+	Hyperloop is safer because we don’t build at-grade. We’re either on columns or underground, reducing the risk of collisions with other vehicles or people. We’re also autonomous and unaffected by weather. If you take away at-grade crossings, pilot error, and weather, you eliminate roughly 90 percent of rail accidents.
+	<br><br>
+	
+	Speed gets all the headlines, but Hyperloop’s other huge advantage is flexibility. Our systems are designed to be on-demand, with passenger pods leaving every few minutes or at even shorter intervals. It’s packetized travel. Most high-speed rail departures are once or twice an hour. With Hyperloop, you’ll be able to leave or arrive when you want and you don’t have to kill time getting bad coffee and pretzels at the bahnhof.
+	<br>
+	Contrasted with blockchain, cryptocurrency has to do with the use of tokens based on the distributed ledger technology. Anything dealing with buying, selling, investing, trading, microtipping, or other monetary aspects deals with a blockchain native token or subtoken.
+	<br><iframe width="280" height="315" src="https://www.youtube.com/embed/pztF8wMUajM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<br></p>
+     
+
+   <!-- <img src="https://endangered.photo/static/media/green-sea-turtle.b01caf4b.jpg" class="article__illustration" alt="Green Sea Turtle">
+--><p class="p">	  <br><h2>So, what is Hyperloop?</h2>    
+<h4 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"> <i>An ultra-high-speed ground transportation system proposed in 2013 by Elon Musk, cofounder of PayPal, Tesla Motors and founder of space transport company SpaceX.</i> </h4>  
+<script>
+function mouseOver() {
+    document.getElementById("demo").style.color = "red";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+}
+</script>
+</p>
+      
+      <p class="p">
+          <h2>Pods in a Tube</h2>
+         Hyperloop pods ride in a solar-powered, elevated air tube that for long distances would mostly follow an existing highway. To reduce resistance, a low pressure environment is created within the tube. If ever built, a 350-mile ride from Los Angeles to San Francisco would take approximately 35 minutes, reaching speeds in excess of 700 MPH.
+			<br><h2>The First Hyperloop</h2>In 2014, Hyperloop Transportation Technologies (HTT) was formed to create a Hyperloop in Quay Valley, California. Quay Valley is a futuristic, model town with 25,000 homes built from the ground up on 7,500 acres. In 2016, the first test of the Hyperloop One over a short distance was successful
+	<img id="myImges" src="https://electrek.files.wordpress.com/2016/08/hyperloop-dubai-1-e1471376183173.jpg?quality=82&strip=all&strip=all&w=1600&h=1000" alt="Hyperloop Project of Dubai">
+
+          <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImges');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+</p>
+
+	<p class="p">
+		<h2>Challenges or disadvantages of Hyperloop Technology</h2>
+			<li>High speed of capsule (almost at speed of sound) may cause dizziness to the passengers travelling due to vibration and jostling. </li> 
+			<li>Land use rights will be concern for deployment of the project. </li>
+			<li>As hyperloop uses steel for track, it expands and changes shape when outside temperature is changed. This may destroy the track of hyperloop technology. This needs to be considered while designing the system based on environment of the location where it is being deployed.</li>
+			<li>Initial cost of investment to have the system in place is very high. The long vacuum chamber manufacturing requires more technical skills. Moreover this is costly and also risky to maintain. </li>
+			<li>The installation requires cutting of large number of trees. This leads to environment loss.</li>
+			<li>It has limited space in the train and hence people can not move freely. </li>
+			<li>It has very high risk to life when something wrong happens to the system</li>
+</p>
+
+    </article>
+
+ <aside class="aside">
+	  <img  id="imgess"src="https://cdn.vox-cdn.com/thumbor/V9P0iVjBOHwWe_fHE4cE48bphUo=/0x0:5432x3048/1200x800/filters:focal(2282x1090:3150x1958)/cdn.vox-cdn.com/uploads/chorus_image/image/56020283/usethis.0.0.png">
+
+	    <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('imgess');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ </script>
+	  <br>
+	  <br>An ultra-high-speed ground transportation system proposed in 2013 by<a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a>, cofounder of PayPal, Tesla Motors and founder of space transport company SpaceX.
+	    <br><h2>Reference</h2>
+        <li>
+<font size="2"><a href="https://en.wikipedia.org/wiki/Hyperloop">https://en.wikipedia.org/wiki/Hyperloop</a></font>
+        </li>
+        <li> <font size="2"><a href="http://www.rfwireless-world.com/Terminology/Advantages-and-Disadvantages-of-Hyperloop-Technology.html">/quora</a></font> 
+        </li>
+        <li><font size="2"><a href="http://www.slate.com/blogs/quora/2016/07/11/what_advantages_does_hyperloop_offer_over_high_speed_rail.html">what-is-a-Hyperloop</a></font>
+	  </li>
+</aside>
+  
+</div>
